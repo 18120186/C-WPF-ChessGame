@@ -33,133 +33,197 @@
 					<RowDefinition Height="1*" />
 					<RowDefinition Height="1*" />
 				</Grid.RowDefinitions>
-				<Button>
-					<Image Source="Images\BlackRook.png"/>
+				<Button Name="Button_70" Click="Button_70_Click" >
+					<Image Name="Image_70" Source="Images\BlackRook.png"/>
 				</Button>
-				<Button Grid.Column="1">
-					<Image Source="Images\BlackKnight.png"/>
+				<Button Name="Button_71" Click="Button_71_Click" Grid.Column="1">
+					<Image Name="Image_71" Source="Images\BlackKnight.png"/>
 				</Button>
-				<Button Grid.Column="2">
-					<Image Source="Images\BlackBishop.png"/>
+				<Button Name="Button_72" Click="Button_72_Click" Grid.Column="2">
+					<Image Name="Image_72" Source="Images\BlackBishop.png"/>
 				</Button>
-				<Button Grid.Column="3">
-					<Image Source="Images\BlackQueen.png"/>
+				<Button Name="Button_73" Click="Button_73_Click" Grid.Column="3">
+					<Image Name="Image_73" Source="Images\BlackQueen.png"/>
 				</Button>
-				<Button Grid.Column="4">
-					<Image Source="Images\BlackKing.png"/>
+				<Button  Name="Button_74" Click="Button_74_Click" Grid.Column="4">
+					<Image Name="Image_74" Source="Images\BlackKing.png"/>
 				</Button>
-				<Button Grid.Column="5">
-					<Image Source="Images\BlackBishop.png"/>
+				<Button Name="Button_75" Click="Button_75_Click"  Grid.Column="5">
+					<Image Name="Image_75" Source="Images\BlackBishop.png"/>
 				</Button>
-				<Button Grid.Column="6">
-					<Image Source="Images\BlackKnight.png"/>
+				<Button Name="Button_76" Click="Button_76_Click"  Grid.Column="6">
+					<Image Name="Image_76" Source="Images\BlackKnight.png"/>
 				</Button>
-				<Button Grid.Column="7">
-					<Image Source="Images\BlackRook.png"/>
+				<Button  Name="Button_77" Click="Button_77_Click" Grid.Column="7">
+					<Image Name="Image_77" Source="Images\BlackRook.png"/>
 				</Button>
-				<Button Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button Name="Button_60" Click="Button_60_Click"  Grid.Row="1">
+					<Image Name="Image_60" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Column="1" Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button Name="Button_61" Click="Button_61_Click"  Grid.Column="1" Grid.Row="1">
+					<Image Name="Image_61" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Column="2" Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button Name="Button_62" Click="Button_62_Click"  Grid.Column="2" Grid.Row="1">
+					<Image Name="Image_62" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Column="3" Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button Name="Button_63" Click="Button_63_Click"  Grid.Column="3" Grid.Row="1">
+					<Image Name="Image_63" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Column="4" Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button Name="Button_64" Click="Button_64_Click" Grid.Column="4" Grid.Row="1">
+					<Image Name="Image_64" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Column="5" Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button Name="Button_65" Click="Button_65_Click"  Grid.Column="5" Grid.Row="1">
+					<Image Name="Image_65" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Column="6" Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button Name="Button_66" Click="Button_66_Click"  Grid.Column="6" Grid.Row="1">
+					<Image Name="Image_66" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Column="7" Grid.Row="1">
-					<Image Source="Images\BlackPawn.png"/>
+				<Button  Name="Button_67" Click="Button_67_Click" Grid.Column="7" Grid.Row="1">
+					<Image Name="Image_67" Source="Images\BlackPawn.png"/>
 				</Button>
-				<Button Grid.Row="2">Button 4</Button>
-				<Button Grid.Column="1" Grid.Row="2">Button 5</Button>
-				<Button Grid.Column="2" Grid.Row="2">Button 6</Button>
-				<Button Grid.Column="3" Grid.Row="2">Button 5</Button>
-				<Button Grid.Column="4" Grid.Row="2">Button 6</Button>
-				<Button Grid.Column="5" Grid.Row="2">Button 5</Button>
-				<Button Grid.Column="6" Grid.Row="2">Button 6</Button>
-				<Button Grid.Column="7" Grid.Row="2">Button 5</Button>
-				<Button Grid.Row="3">Button 4</Button>
-				<Button Grid.Column="1" Grid.Row="3">Button 5</Button>
-				<Button Grid.Column="2" Grid.Row="3">Button 6</Button>
-				<Button Grid.Column="3" Grid.Row="3">Button 5</Button>
-				<Button Grid.Column="4" Grid.Row="3">Button 6</Button>
-				<Button Grid.Column="5" Grid.Row="3">Button 5</Button>
-				<Button Grid.Column="6" Grid.Row="3">Button 6</Button>
-				<Button Grid.Column="7" Grid.Row="3">Button 5</Button>
-				<Button Grid.Row="4">Button 4</Button>
-				<Button Grid.Column="1" Grid.Row="4">Button 5</Button>
-				<Button Grid.Column="2" Grid.Row="4">Button 6</Button>
-				<Button Grid.Column="3" Grid.Row="4">Button 5</Button>
-				<Button Grid.Column="4" Grid.Row="4">Button 6</Button>
-				<Button Grid.Column="5" Grid.Row="4">Button 5</Button>
-				<Button Grid.Column="6" Grid.Row="4">Button 6</Button>
-				<Button Grid.Column="7" Grid.Row="4">Button 5</Button>
-				<Button Grid.Row="5">Button 4</Button>
-				<Button Grid.Column="1" Grid.Row="5">Button 5</Button>
-				<Button Grid.Column="2" Grid.Row="5">Button 6</Button>
-				<Button Grid.Column="3" Grid.Row="5">Button 5</Button>
-				<Button Grid.Column="4" Grid.Row="5">Button 6</Button>
-				<Button Grid.Column="5" Grid.Row="5">Button 5</Button>
-				<Button Grid.Column="6" Grid.Row="5">Button 6</Button>
-				<Button Grid.Column="7" Grid.Row="5">Button 5</Button>
-				<Button Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_50" Click="Button_50_Click" Grid.Row="2">
+					<Image Name="Image_50" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="1" Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_51" Click="Button_51_Click" Grid.Column="1" Grid.Row="2">
+					<Image Name="Image_51" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="2" Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_52" Click="Button_52_Click" Grid.Column="2" Grid.Row="2">
+					<Image Name="Image_52" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="3" Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_53" Click="Button_53_Click" Grid.Column="3" Grid.Row="2">
+					<Image Name="Image_53" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="4" Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_54" Click="Button_54_Click" Grid.Column="4" Grid.Row="2">
+					<Image Name="Image_54" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="5" Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_55" Click="Button_55_Click" Grid.Column="5" Grid.Row="2">
+					<Image Name="Image_55" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="6" Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_56" Click="Button_56_Click" Grid.Column="6" Grid.Row="2">
+					<Image Name="Image_56" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="7" Grid.Row="6">
-					<Image Source="Images\WhitePawn.png"/>
+				<Button Name="Button_57" Click="Button_57_Click" Grid.Column="7" Grid.Row="2">
+					<Image Name="Image_57" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Row="7">
-					<Image Source="Images\WhiteRook.png"/>
+				<Button Name="Button_40" Click="Button_40_Click" Grid.Row="3">
+					<Image Name="Image_40" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="1" Grid.Row="7">
-					<Image Source="Images\WhiteKnight.png"/>
+				<Button Name="Button_41" Click="Button_41_Click" Grid.Column="1" Grid.Row="3">
+					<Image Name="Image_41" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="2" Grid.Row="7">
-					<Image Source="Images\WhiteBishop.png"/>
+				<Button Name="Button_42" Click="Button_42_Click" Grid.Column="2" Grid.Row="3">
+					<Image Name="Image_42" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="3" Grid.Row="7">
-					<Image Source="Images\WhiteQueen.png"/>
+				<Button Name="Button_43" Click="Button_43_Click" Grid.Column="3" Grid.Row="3">
+					<Image Name="Image_43" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="4" Grid.Row="7">
-					<Image Source="Images\WhiteKing.png"/>
+				<Button Name="Button_44" Click="Button_44_Click" Grid.Column="4" Grid.Row="3">
+					<Image Name="Image_44" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="5" Grid.Row="7">
-					<Image Source="Images\WhiteBishop.png"/>
+				<Button Name="Button_45" Click="Button_45_Click" Grid.Column="5" Grid.Row="3">
+					<Image Name="Image_45" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="6" Grid.Row="7">
-					<Image Source="Images\WhiteKnight.png"/>
+				<Button Name="Button_46" Click="Button_46_Click" Grid.Column="6" Grid.Row="3">
+					<Image Name="Image_46" Source="Images\Blank.png"/>
 				</Button>
-				<Button Grid.Column="7" Grid.Row="7">
-					<Image Source="Images\WhiteRook.png"/>
+				<Button Name="Button_47" Click="Button_47_Click" Grid.Column="7" Grid.Row="3">
+					<Image Name="Image_47" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_30" Click="Button_30_Click"  Grid.Row="4">
+					<Image Name="Image_30" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_31" Click="Button_31_Click" Grid.Column="1" Grid.Row="4">
+					<Image Name="Image_31" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_32" Click="Button_32_Click" Grid.Column="2" Grid.Row="4">
+					<Image Name="Image_32" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_33" Click="Button_33_Click" Grid.Column="3" Grid.Row="4">
+					<Image Name="Image_33" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_34" Click="Button_34_Click" Grid.Column="4" Grid.Row="4">
+					<Image Name="Image_34" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_35" Click="Button_35_Click" Grid.Column="5" Grid.Row="4">
+					<Image Name="Image_35" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_36" Click="Button_36_Click" Grid.Column="6" Grid.Row="4">
+					<Image Name="Image_36" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_37" Click="Button_37_Click" Grid.Column="7" Grid.Row="4">
+					<Image Name="Image_37" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_20" Click="Button_20_Click" Grid.Row="5">
+					<Image Name="Image_20" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_21" Click="Button_21_Click" Grid.Column="1" Grid.Row="5">
+					<Image Name="Image_21" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_22" Click="Button_22_Click"  Grid.Column="2" Grid.Row="5">
+					<Image Name="Image_22" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_23" Click="Button_23_Click" Grid.Column="3" Grid.Row="5">
+					<Image Name="Image_23" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_24" Click="Button_24_Click" Grid.Column="4" Grid.Row="5">
+					<Image Name="Image_24" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_25" Click="Button_25_Click" Grid.Column="5" Grid.Row="5">
+					<Image Name="Image_25" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_26" Click="Button_26_Click" Grid.Column="6" Grid.Row="5">
+					<Image Name="Image_26" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_27" Click="Button_27_Click"  Grid.Column="7" Grid.Row="5">
+					<Image Name="Image_27" Source="Images\Blank.png"/>
+				</Button>
+				<Button Name="Button_10" Click="Button_10_Click" Grid.Row="6">
+					<Image Name="Image_10" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_11" Click="Button_11_Click" Grid.Column="1" Grid.Row="6">
+					<Image Name="Image_11" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_12" Click="Button_12_Click" Grid.Column="2" Grid.Row="6">
+					<Image Name="Image_12" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_13" Click="Button_13_Click" Grid.Column="3" Grid.Row="6">
+					<Image Name="Image_13" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_14" Click="Button_14_Click" Grid.Column="4" Grid.Row="6">
+					<Image Name="Image_14" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_15" Click="Button_15_Click" Grid.Column="5" Grid.Row="6">
+					<Image Name="Image_15" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_16" Click="Button_16_Click" Grid.Column="6" Grid.Row="6">
+					<Image Name="Image_16" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_17" Click="Button_17_Click" Grid.Column="7" Grid.Row="6">
+					<Image Name="Image_17" Source="Images\WhitePawn.png"/>
+				</Button>
+				<Button Name="Button_00" Click="Button_00_Click" Grid.Row="7">
+					<Image Name="Image_00" Source="Images\WhiteRook.png"/>
+				</Button>
+				<Button Name="Button_01" Click="Button_01_Click" Grid.Column="1" Grid.Row="7">
+					<Image Name="Image_01" Source="Images\WhiteKnight.png"/>
+				</Button>
+				<Button Name="Button_02" Click="Button_02_Click" Grid.Column="2" Grid.Row="7">
+					<Image Name="Image_02" Source="Images\WhiteBishop.png"/>
+				</Button>
+				<Button Name="Button_03" Click="Button_03_Click" Grid.Column="3" Grid.Row="7">
+					<Image Name="Image_03" Source="Images\WhiteQueen.png"/>
+				</Button>
+				<Button Name="Button_04" Click="Button_04_Click" Grid.Column="4" Grid.Row="7">
+					<Image Name="Image_04" Source="Images\WhiteKing.png"/>
+				</Button>
+				<Button Name="Button_05" Click="Button_05_Click" Grid.Column="5" Grid.Row="7">
+					<Image Name="Image_05" Source="Images\WhiteBishop.png"/>
+				</Button>
+				<Button Name="Button_06" Click="Button_06_Click" Grid.Column="6" Grid.Row="7">
+					<Image Name="Image_06" Source="Images\WhiteKnight.png"/>
+				</Button>
+				<Button Name="Button_07" Click="Button_07_Click" Grid.Column="7" Grid.Row="7">
+					<Image Name="Image_07" Source="Images\WhiteRook.png"/>
 				</Button>
 			</Grid>
 		</Grid>

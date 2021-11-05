@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\Code\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj": {}
+    "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\W3\\BT3\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj": {}
   },
   "projects": {
-    "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\Code\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj": {
+    "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\W3\\BT3\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\Code\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj",
+        "projectUniqueName": "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\W3\\BT3\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj",
         "projectName": "Chess-Game",
-        "projectPath": "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\Code\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj",
+        "projectPath": "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\W3\\BT3\\C-WPF-ChessGame\\Chess-Game\\Chess-Game.csproj",
         "packagesPath": "C:\\Users\\DANGKHOA\\.nuget\\packages\\",
-        "outputPath": "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\Code\\C-WPF-ChessGame\\Chess-Game\\obj\\",
+        "outputPath": "E:\\PlayerUnknown's Battlegrounds\\KienTrucPhanMem\\W3\\BT3\\C-WPF-ChessGame\\Chess-Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DANGKHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",

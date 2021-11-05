@@ -16,5 +16,34 @@ namespace Chess_Game
             List<int> pos = new List<int>() { VerticalPostition, HorizontalPosition };
             return pos;
         }
+
+        public Unit PhongTot(string unitName)
+        {
+            if(unitName == "Rook")
+            {
+                Unit newUnit = new Rook();
+                return newUnit;
+            }
+            else if (unitName == "Knight")
+            {
+                Unit newUnit = new Knight();
+                return newUnit;
+            }
+            else if (unitName == "Bishop")
+            {
+                Unit newUnit = new Bishop();
+                return newUnit;
+            }
+            else if (unitName == "Queen")
+            {
+                Unit newUnit = new Queen();
+                return newUnit;
+            }
+            else
+            {
+                //Do nothing
+            }
+            return null;
+        }
     }
 }
