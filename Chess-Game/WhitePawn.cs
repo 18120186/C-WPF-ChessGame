@@ -8,6 +8,11 @@ namespace Chess_Game
 {
     class WhitePawn: Unit
     {
-
+        public WhitePawn(int Hpos, int Vpos)
+        {
+            team = 0;
+            species = "Pawn";
+            setPosition(Hpos, Vpos);
+        }
     }
 }

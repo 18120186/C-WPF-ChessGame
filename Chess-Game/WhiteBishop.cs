@@ -8,5 +8,11 @@ namespace Chess_Game
 {
     class WhiteBishop: Unit
     {
+        public WhiteBishop(int Hpos, int Vpos)
+        {
+            team = 0;
+            species = "Bishop";
+            setPosition(Hpos, Vpos);
+        }
     }
 }

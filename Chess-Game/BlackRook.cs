@@ -8,5 +8,11 @@ namespace Chess_Game
 {
     class BlackRook:Unit
     {
+        public BlackRook(int Hpos, int Vpos)
+        {
+            team = 1;
+            species = "Rook";
+            setPosition(Hpos, Vpos);
+        }
     }
 }

@@ -8,5 +8,11 @@ namespace Chess_Game
 {
     class BlackKing:Unit
     {
+        public BlackKing(int Hpos, int Vpos)
+        {
+            team = 1;
+            species = "King";
+            setPosition(Hpos, Vpos);
+        }
     }
 }

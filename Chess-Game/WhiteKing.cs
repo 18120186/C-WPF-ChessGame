@@ -8,6 +8,11 @@ namespace Chess_Game
 {
     class WhiteKing : Unit
     {
-       
+        public WhiteKing(int Hpos, int Vpos)
+        {
+            team = 0;
+            species = "King";
+            setPosition(Hpos, Vpos);
+        }
     }
 }

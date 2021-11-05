@@ -9,32 +9,47 @@ namespace Chess_Game
 {
     class MainGame
     {
-        List<List<Unit>> ChessBoard = new List<List<Unit>>();
+        List<Unit> ChessBoard = new List<Unit>();
         //bool Turn = true; //true == White turn, false == Black turn
         public MainGame()
         {
-            List<Unit> Row_0 = new List<Unit>();
-            List<Unit> Row_1 = new List<Unit>();
-            WhiteRook w1 = new WhiteRook();
-            WhiteKnight w2 = new WhiteKnight();
-            WhiteBishop w3 = new WhiteBishop();
-            WhiteQueen w4 = new WhiteQueen();
-            WhiteKing w5 = new WhiteKing();
-            WhiteBishop w6 = new WhiteBishop();
-            WhiteKnight w7 = new WhiteKnight();
-            WhiteRook w8 = new WhiteRook();
-            WhitePawn w9 = new WhitePawn();
-            Row_0.Add(w1);
-            Row_0.Add(w2);
-            Row_0.Add(w3);
-            Row_0.Add(w4);
-            Row_0.Add(w5);
-            Row_0.Add(w6);
-            Row_0.Add(w7);
-            Row_0.Add(w8);
-            ChessBoard.Add(Row_0);
+            //Tạo quân trắng
+            Unit w1 = new WhiteRook(0, 0);
+            Unit w2 = new WhiteKnight(0, 1);
+            Unit w3 = new WhiteBishop(0, 2);
+            Unit w4 = new WhiteQueen(0, 3);
+            Unit w5 = new WhiteKing(0, 4);
+            Unit w6 = new WhiteBishop(0, 5);
+            Unit w7 = new WhiteKnight(0, 6);
+            Unit w8 = new WhiteRook(0, 7);
+            Unit w9 = new WhitePawn(1, 0);
+            Unit w10 = new WhitePawn(1, 1);
+            Unit w11 = new WhitePawn(1, 2);
+            Unit w12 = new WhitePawn(1, 3);
+            Unit w13 = new WhitePawn(1, 4);
+            Unit w14 = new WhitePawn(1, 5);
+            Unit w15 = new WhitePawn(1, 6);
+            Unit w16 = new WhitePawn(1, 7);
+
+            ChessBoard.Add(w1);
+            ChessBoard.Add(w2);
+            ChessBoard.Add(w3);
+            ChessBoard.Add(w4);
+            ChessBoard.Add(w5);
+            ChessBoard.Add(w6);
+            ChessBoard.Add(w7);
+            ChessBoard.Add(w8);
+            ChessBoard.Add(w9);
+            ChessBoard.Add(w10);
+            ChessBoard.Add(w11);
+            ChessBoard.Add(w12);
+            ChessBoard.Add(w13);
+            ChessBoard.Add(w14);
+            ChessBoard.Add(w15);
+            ChessBoard.Add(w16);
+
         }
-        public List<List<Unit>> getChessBoard()
+        public List<Unit> getChessBoard()
         {
             return ChessBoard;
         }

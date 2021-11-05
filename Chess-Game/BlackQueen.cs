@@ -8,5 +8,11 @@ namespace Chess_Game
 {
     class BlackQueen:Unit
     {
+        public BlackQueen(int Hpos, int Vpos)
+        {
+            team = 1;
+            species = "Queen";
+            setPosition(Hpos, Vpos);
+        }
     }
 }

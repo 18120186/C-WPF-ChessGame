@@ -22,10 +22,33 @@ namespace Chess_Game
     {
 
         MainGame game = new MainGame();
+        Image WhiteRook = new Image();
+        Image WhiteKnight = new Image();
+        Image WhiteBishop = new Image();
+        Image WhiteQueen = new Image();
+        Image WhiteKing = new Image();
+        Image WhitePawn = new Image();
+        Image BlackRook = new Image();
+        Image BlackKnight = new Image();
+        Image BlackBishop = new Image();
+        Image BlackQueen = new Image();
+        Image BlackKing = new Image();
+        Image BlackPawn = new Image();
         public MainWindow()
         {
-            
             InitializeComponent();
+            WhiteRook = Image_00;
+            WhiteKnight = Image_01;
+            WhiteBishop = Image_02;
+            WhiteQueen = Image_03;
+            WhiteKing = Image_04;
+            WhitePawn = Image_10;
+            BlackRook = Image_71;
+            BlackKnight = Image_72;
+            BlackBishop = Image_73;
+            BlackQueen = Image_74;
+            BlackKing = Image_75;
+            BlackPawn = Image_60;
         }
 
         //private bool Move(Image thisPos, Image nextPos)
@@ -39,20 +62,18 @@ namespace Chess_Game
         //Cập nhật bàn cờ
         public void UpdateChessBoard()
         {
-            List<List<Unit>> ChessBoard = game.getChessBoard();
-            for(int i=0; i<8;i++)
+            List<Unit> ChessBoard = game.getChessBoard();
+            for(int i = 0; i < ChessBoard.Count(); i++)
             {
-                for(int j=0;j<8;j++)
-                {
 
-                }
             }
         }
-        //Cập nhật quân cờ
-        //public void UpdateChessBox(Image box, Unit unit)
-        //{
-        //    if()
-        //}
+        //Cập nhật ô cờ
+        private void UpdateChessBox(Unit unit)
+        {
+            //Do something
+        }
+
         private void Button_00_Click(object sender, RoutedEventArgs e)
         {
 

@@ -8,9 +8,11 @@ namespace Chess_Game
 {
     class BlackBishop : Unit
     {
-        public string getSpecies()
+        public BlackBishop(int Hpos, int Vpos)
         {
-            return "BlackBishop";
+            team = 1;
+            species = "Bishop";
+            setPosition(Hpos, Vpos);
         }
     }
 }

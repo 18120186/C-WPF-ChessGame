@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Chess_Game
 {
-    class BlackKnight:Unit
+    class BlackKnight : Unit
     {
+        public BlackKnight(int Hpos, int Vpos)
+        {
+            team = 1;
+            species = "Knight";
+            setPosition(Hpos, Vpos);
+        }
     }
 }
