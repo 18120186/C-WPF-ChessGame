@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chess_Game
 {
-    class Bishop: Unit
+    class WhiteKnight: Unit
     {
     }
 }

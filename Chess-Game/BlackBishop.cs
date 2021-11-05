@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Chess_Game
 {
-    class Rook: Unit
+    class BlackBishop : Unit
     {
-
+        public string getSpecies()
+        {
+            return "BlackBishop";
+        }
     }
 }

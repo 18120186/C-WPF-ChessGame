@@ -20,9 +20,11 @@ namespace Chess_Game
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        MainGame game = new MainGame();
         public MainWindow()
         {
-
+            
             InitializeComponent();
         }
 
@@ -34,6 +36,23 @@ namespace Chess_Game
         //    return true;
         //}
 
+        //Cập nhật bàn cờ
+        public void UpdateChessBoard()
+        {
+            List<List<Unit>> ChessBoard = game.getChessBoard();
+            for(int i=0; i<8;i++)
+            {
+                for(int j=0;j<8;j++)
+                {
+
+                }
+            }
+        }
+        //Cập nhật quân cờ
+        //public void UpdateChessBox(Image box, Unit unit)
+        //{
+        //    if()
+        //}
         private void Button_00_Click(object sender, RoutedEventArgs e)
         {
 

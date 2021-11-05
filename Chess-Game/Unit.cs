@@ -21,22 +21,22 @@ namespace Chess_Game
         {
             if(unitName == "Rook")
             {
-                Unit newUnit = new Rook();
+                Unit newUnit = new WhiteRook();
                 return newUnit;
             }
             else if (unitName == "Knight")
             {
-                Unit newUnit = new Knight();
+                Unit newUnit = new WhiteKnight();
                 return newUnit;
             }
             else if (unitName == "Bishop")
             {
-                Unit newUnit = new Bishop();
+                Unit newUnit = new WhiteBishop();
                 return newUnit;
             }
             else if (unitName == "Queen")
             {
-                Unit newUnit = new Queen();
+                Unit newUnit = new WhiteQueen();
                 return newUnit;
             }
             else
